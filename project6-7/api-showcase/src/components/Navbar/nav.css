@@ -1,0 +1,17 @@
+/* PALLETE: 
+    #6A0269  DARK PURPLE
+    #9000B3  PURPLE
+    #C413C1  LIGHT PURPLE
+    #E98604  ORANGE
+    #F7D075  YELLOW ORANGE */
+
+a.dropdown-item:visited {
+  color: rgb(44, 43, 43);
+}
+
+a.dropdown-item:hover {
+  color: #9000b3;
+}
+
+@media only screen and (max-width: 600px) {
+}

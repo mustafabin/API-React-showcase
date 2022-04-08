@@ -1,0 +1,118 @@
+/* IMPORTANT EVEYTHING IN THIS CSS MUST HAVE
+  COMPONET NAME AT THE START */
+/* PALLETE: 
+    #6A0269  DARK PURPLE
+    #9000B3  PURPLE
+    #C413C1  LIGHT PURPLE
+    #E98604  ORANGE
+    #F7D075  YELLOW ORANGE */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: fit-content;
+  background-color: #6a0269;
+}
+
+.home-container p {
+  color: white;
+}
+.main {
+  margin-top: 1rem;
+  width: 100vw;
+  height: 100vh;
+  background-color: blue;
+}
+.country-container {
+  height: 100vh;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.one {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 50px;
+}
+
+.shapeOne {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  height: 80%;
+  width: 100%;
+  /*   border: 1px solid white; */
+  border-radius: 70% 50% 0% 0%;
+
+  position: absolute;
+  background-color: #6a0269;
+  z-index: 4;
+}
+.shapeTwo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  height: 85%;
+  width: 100%;
+  /*   border: 1px solid white; */
+  border-radius: 70% 50% 0% 0%;
+
+  position: absolute;
+  background-color: #9000b3;
+  z-index: 3;
+}
+.shapeThree {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  height: 90%;
+  width: 100%;
+  /*   border: 1px solid white; */
+  border-radius: 70% 50% 0% 0%;
+
+  position: absolute;
+  background-color: #c413c1;
+  z-index: 2;
+}
+.shapeFour {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  height: 95%;
+  width: 100%;
+  /*   border: 1px solid white; */
+  border-radius: 70% 50% 0% 0%;
+
+  position: absolute;
+  background-color: #e98604;
+  z-index: 1;
+}
+.shapeFive {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  height: 100%;
+
+  width: 100%;
+  /*   border: 1px solid white; */
+  border-radius: 70% 50% 0% 0%;
+  position: absolute;
+  background-color: #f7d075;
+  z-index: 0;
+}
