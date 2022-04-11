@@ -8,7 +8,7 @@ const NavbarFunc = () => {
   return (
     <Navbar fixed="top" bg="light" expand="md">
       <Container>
-        <LinkContainer to="/test">
+        <LinkContainer to="/">
           <Navbar.Brand>API-Showcase</Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
